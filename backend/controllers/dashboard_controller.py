@@ -1,6 +1,5 @@
 from flask import jsonify
 from flask_jwt_extended import get_jwt_identity
-
 from services.dashboard_service import (
     get_user_role,
     get_admin_dashboard,
